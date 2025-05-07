@@ -1,7 +1,9 @@
 # 🎗️ Breast Cancer Detection Using Machine Learning
 A Streamlit web application that uses **Machine Learning models** to predict whether a tumor is **Benign** or **Malignant** based on diagnostic features from the breast cancer dataset.
 ![image alt](https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML/blob/main/homepage.png?raw=true)
-**INTRODUCTION**: 
+
+**Inroduction** 
+
 Breast cancer is a significant health concern worldwide. Leveraging machine learning can provide a valuable tool for assisting medical professionals in early diagnosis, potentially leading to timely interventions and improved survival rates. This project aims to:
 * Explore the effectiveness of various machine learning algorithms in breast cancer detection.
 * Build a robust and reliable predictive model.
@@ -9,12 +11,12 @@ Breast cancer is a significant health concern worldwide. Leveraging machine lear
 
 ## Dataset
 
-This project utilizes the **Wisconsin Breast Cancer (Diagnostic) Dataset**, which is readily available within the `scikit-learn` library. This dataset comprises features computed from digitized images of fine needle aspirates (FNA) of a breast mass. These features describe characteristics of the cell nuclei present in the image. The target variable indicates whether the diagnosis is malignant or benign.
-
-* **Source:** `sklearn.datasets` (Wisconsin Breast Cancer (Diagnostic) Dataset)
-* **Key Features:** radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry, fractal dimension (mean, standard error, and "worst" or largest mean value of these features were computed for each image, resulting in 30 features).
-* **Number of Instances:** 569
-* **Number of Features:** 30
+* Dataset: Wisconsin Breast Cancer (Diagnostic) Dataset.
+* Source: scikit-learn library (sklearn.datasets).
+* Data: Features from digitized images of breast mass Fine Needle Aspirates (FNA).
+* Features: 30 features describing cell nuclei (e.g., radius, texture), with mean, standard error, and "worst" values.
+* Instances: 569.
+* Target Variable: Binary (malignant or benign diagnosis).
 
 ## Methodology
 The project follows a standard machine learning workflow:
@@ -45,4 +47,10 @@ The project follows a standard machine learning workflow:
         * Confusion Matrix
         * Area Under the ROC Curve (AUC)
 
-## 📸 Screenshots
+## Result
+
+Model Performance:
+The models were evaluated using accuracy, precision, recall, and F1-score.Among the tested algorithms, Random Forest achieved the highest performance.
+     Accuracy: 97.37%     Precision: 97.06%      Recall: 98.04%      F1-Score: 97.55%
+                                                                                                                   
+
