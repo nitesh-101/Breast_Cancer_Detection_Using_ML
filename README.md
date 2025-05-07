@@ -1,14 +1,14 @@
 # 🎗️ Breast Cancer Detection App Using Machine Learning
 A Streamlit web application that uses **Machine Learning models** to predict whether a tumor is **Benign** or **Malignant** based on diagnostic features from the breast cancer dataset.
 
-## 📖 Introduction 
+## Introduction 
 
 Breast cancer is a significant health concern worldwide. Leveraging machine learning can provide a valuable tool for assisting medical professionals in early diagnosis, potentially leading to timely interventions and improved survival rates. This project aims to:
 * Explore the effectiveness of various machine learning algorithms in breast cancer detection.
 * Build a robust and reliable predictive model.
 * Provide a clear and understandable implementation for educational and research purposes.
 
-## 📊 Dataset
+## Dataset
 
 * Dataset: Wisconsin Breast Cancer (Diagnostic) Dataset.
 * Source: scikit-learn library (sklearn.datasets).
@@ -17,7 +17,7 @@ Breast cancer is a significant health concern worldwide. Leveraging machine lear
 * Instances: 569.
 * Target Variable: Binary (malignant or benign diagnosis).
 
-## ⚙️ Methodology
+## Methodology
 The project follows a standard machine learning workflow:
 * **Data Exploration and Preprocessing:**
 The dataset was loaded and inspected for structure and quality. Exploratory Data Analysis (EDA) was used to visualize feature distributions and correlations. Missing values were checked (none found), and since the data was already numeric and scaled, minimal preprocessing was needed. The data was then split into training and testing sets.
@@ -28,7 +28,7 @@ Multiple classification algorithms were explored including Logistic Regression, 
 * **Model Evaluation:**
 Trained models were evaluated on test data using various metrics such as Accuracy, Precision, Recall, F1-Score, Confusion Matrix, and Area Under the ROC Curve (AUC) to determine the best-performing approach.
 
-## ✅ Result
+## Result
 Model Performance:
 The models were evaluated using accuracy, precision, recall, and F1-score.Among the tested algorithms, Random Forest achieved the highest performance.
 * Model Metrics:
@@ -37,7 +37,7 @@ The models were evaluated using accuracy, precision, recall, and F1-score.Among 
      * Recall: 98.04%      
      * F1-Score: 97.55%
 
-## 📸 Application Interface Overview
+## Application Interface Overview
 ### 🏠 Home Page
 ![image alt](https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML/blob/main/app_screenshots/homepage.png?raw=true)
 
@@ -49,7 +49,7 @@ The models were evaluated using accuracy, precision, recall, and F1-score.Among 
 
 ### 🩺 Prediction Page
 ![image alt](https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML/blob/main/app_screenshots/prediction.png?raw=true)
-## 🚀 Getting Started
+## Getting Started
 
 * Clone this repository:
    ```bash
@@ -64,7 +64,7 @@ The models were evaluated using accuracy, precision, recall, and F1-score.Among 
    ```bash
    streamlit run app.py
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
                                                                                                                    
 
