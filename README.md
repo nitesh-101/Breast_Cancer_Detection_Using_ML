@@ -2,7 +2,7 @@
 A Streamlit web application that uses **Machine Learning models** to predict whether a tumor is **Benign** or **Malignant** based on diagnostic features from the breast cancer dataset.
 ![image alt](https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML/blob/main/homepage.png?raw=true)
 
-**Inroduction** 
+## Introduction 
 
 Breast cancer is a significant health concern worldwide. Leveraging machine learning can provide a valuable tool for assisting medical professionals in early diagnosis, potentially leading to timely interventions and improved survival rates. This project aims to:
 * Explore the effectiveness of various machine learning algorithms in breast cancer detection.
@@ -48,9 +48,12 @@ The project follows a standard machine learning workflow:
         * Area Under the ROC Curve (AUC)
 
 ## Result
-
 Model Performance:
 The models were evaluated using accuracy, precision, recall, and F1-score.Among the tested algorithms, Random Forest achieved the highest performance.
-     Accuracy: 97.37%     Precision: 97.06%      Recall: 98.04%      F1-Score: 97.55%
+        * Accuracy: 97.37%     
+        * Precision: 97.06%     
+        * Recall: 98.04%      
+        * F1-Score: 97.55%
+
                                                                                                                    
 
