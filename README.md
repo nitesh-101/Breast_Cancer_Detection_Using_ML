@@ -50,7 +50,7 @@ The project follows a standard machine learning workflow:
 ## Result
 Model Performance:
 The models were evaluated using accuracy, precision, recall, and F1-score.Among the tested algorithms, Random Forest achieved the highest performance.
-Model Metrics:
+# Model Metrics:
         * Accuracy: 97.37%     
         * Precision: 97.06%     
         * Recall: 98.04%      
@@ -64,9 +64,11 @@ Model Metrics:
    cd Breast_Cancer_Detection_App
 
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-3. Run the app:
+4. Run the app:
+   ```bash
    streamlit run app.py
 
 📄 License
