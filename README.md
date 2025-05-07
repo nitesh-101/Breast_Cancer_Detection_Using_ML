@@ -1,6 +1,6 @@
 # 🎗️ Breast Cancer Detection Using Machine Learning
 A Streamlit web application that uses **Machine Learning models** to predict whether a tumor is **Benign** or **Malignant** based on diagnostic features from the breast cancer dataset.
-
+![image alt](https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML/blob/main/Screenshot%202025-05-05%20222929.png?raw=true)
 **INTRODUCTION**:
 Breast cancer is a significant health concern worldwide. Leveraging machine learning can provide a valuable tool for assisting medical professionals in early diagnosis, potentially leading to timely interventions and improved survival rates. This project aims to:
 * Explore the effectiveness of various machine learning algorithms in breast cancer detection.
