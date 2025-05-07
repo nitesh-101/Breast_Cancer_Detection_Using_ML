@@ -45,10 +45,10 @@ The models were evaluated using accuracy, precision, recall, and F1-score.Among 
 ![image alt](https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML/blob/main/app_screenshots/data_exploration.png?raw=true)
 
 ### 🧠 Model Training
-![image alt]()
+![image alt](https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML/blob/main/app_screenshots/model_training.png?raw=true)
 
 ### 🩺 Prediction Page
-![image alt]()
+![image alt](https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML/blob/main/app_screenshots/prediction.png?raw=true)
 ## 🚀 Getting Started
 
 * Clone this repository:
