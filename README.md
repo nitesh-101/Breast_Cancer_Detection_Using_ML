@@ -21,31 +21,14 @@ Breast cancer is a significant health concern worldwide. Leveraging machine lear
 ## Methodology
 The project follows a standard machine learning workflow:
 
-1.  **Data Exploration and Preprocessing:**
-    * Loading and inspecting the dataset.
-    * Handling missing values (if any).
-    * Exploratory Data Analysis (EDA) to understand feature distributions and relationships.
-    * Feature scaling and encoding (if necessary).
-    * Splitting the data into training and testing sets.
+1. **Data Exploration and Preprocessing:**
+The dataset was loaded and inspected for structure and quality. Exploratory Data Analysis (EDA) was used to visualize feature distributions and correlations. Missing values were checked (none found), and since the data was already numeric and scaled, minimal preprocessing was needed. The data was then split into training and testing sets.
 
-2.  **Model Selection and Training:**
-    * Experimenting with various classification algorithms such as:
-        * Logistic Regression
-        * Support Vector Machines (SVM)
-        * K-Nearest Neighbors (KNN)
-        * Decision Trees
-        * Random Forests
-    * Training the selected models on the training data.
-    * Hyperparameter tuning using techniques like GridSearchCV or RandomizedSearchCV to optimize model performance.
+2. **Model Selection and Training:**
+Multiple classification algorithms were explored including Logistic Regression, Support Vector Machines (SVM), K-Nearest Neighbors (KNN), Decision Trees, and Random Forests. Models were trained on the training set, and hyperparameter tuning was performed using GridSearchCV to improve performance.
 
-3.  **Model Evaluation:**
-    * Evaluating the trained models on the unseen test data using appropriate metrics such as:
-        * Accuracy
-        * Precision
-        * Recall
-        * F1-score
-        * Confusion Matrix
-        * Area Under the ROC Curve (AUC)
+3. **Model Evaluation:**
+Trained models were evaluated on test data using various metrics such as Accuracy, Precision, Recall, F1-Score, Confusion Matrix, and Area Under the ROC Curve (AUC) to determine the best-performing approach.
 
 ## Result
 Model Performance:
