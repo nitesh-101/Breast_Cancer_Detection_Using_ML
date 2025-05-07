@@ -50,11 +50,11 @@ The project follows a standard machine learning workflow:
 ## Result
 Model Performance:
 The models were evaluated using accuracy, precision, recall, and F1-score.Among the tested algorithms, Random Forest achieved the highest performance.
-# Model Metrics:
-        * Accuracy: 97.37%     
-        * Precision: 97.06%     
-        * Recall: 98.04%      
-        * F1-Score: 97.55%
+* Model Metrics:
+     * Accuracy: 97.37%     
+     * Precision: 97.06%     
+     * Recall: 98.04%      
+     * F1-Score: 97.55%
 
 ## 🚀 Getting Started
 
@@ -72,7 +72,6 @@ The models were evaluated using accuracy, precision, recall, and F1-score.Among 
    streamlit run app.py
 
 📄 License
-This project is licensed under the MIT License - see the ![License: MIT](LICENSE)
- file for details.
+This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
                                                                                                                    
 
