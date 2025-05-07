@@ -50,10 +50,26 @@ The project follows a standard machine learning workflow:
 ## Result
 Model Performance:
 The models were evaluated using accuracy, precision, recall, and F1-score.Among the tested algorithms, Random Forest achieved the highest performance.
+Model Metrics:
         * Accuracy: 97.37%     
         * Precision: 97.06%     
         * Recall: 98.04%      
         * F1-Score: 97.55%
 
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/nitesh-101/Breast_Cancer_Detection_Using_ML.git
+   cd Breast_Cancer_Detection_App
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run the app:
+   streamlit run app.py
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
                                                                                                                    
 
