@@ -19,9 +19,8 @@ Breast cancer is a significant health concern worldwide. Leveraging machine lear
 * Target Variable: Binary (malignant or benign diagnosis).
 
 ## Methodology
-The project follows a standard machine learning workflow:
-
-1. **Data Exploration and Preprocessing:**
+* The project follows a standard machine learning workflow:
+* **Data Exploration and Preprocessing:**
 The dataset was loaded and inspected for structure and quality. Exploratory Data Analysis (EDA) was used to visualize feature distributions and correlations. Missing values were checked (none found), and since the data was already numeric and scaled, minimal preprocessing was needed. The data was then split into training and testing sets.
 
 2. **Model Selection and Training:**
