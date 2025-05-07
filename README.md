@@ -72,6 +72,7 @@ The models were evaluated using accuracy, precision, recall, and F1-score.Among 
    streamlit run app.py
 
 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the ![License: MIT](LICENSE)
+ file for details.
                                                                                                                    
 
